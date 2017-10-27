@@ -40,7 +40,7 @@ def read_data_sets(train_dir, fake_data=False, one_hot=False, dtype=tf.float32):
 
 #导入Minst数据集
 from tensorflow.examples.tutorials.mnist import input_data
-###
+
 mnist = input_data.read_data_sets("MINST_data",one_hot=True)
 
 #导入tensorflow库
